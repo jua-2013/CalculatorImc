@@ -1,0 +1,199 @@
+@media screen and (max-width: 1100px) and (min-width: 922px) {
+    
+    [img2] img{
+        width: 20rem;
+    }
+    [img5] img{
+        width: 25rem;
+    }
+    #calc_imc{
+        width: 70%;
+        
+    }
+    
+}
+@media screen and (max-width: 922px) and (min-width: 708px){
+    :root{
+        --font-size: 1.7rem;
+    }
+    #calc{
+        margin: 1rem;
+    }
+    [img1] img{
+        width: 7rem;
+    }
+    [img2] img{
+        width: 15rem;
+    }
+    [img3] img{
+        width: 7rem;
+    }
+    [img4] img{
+        width: 7rem;
+    }
+    [img5] img{
+        width: 18rem;
+    }
+    #calc_imc{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width: 708px) and (min-width: 529px){
+    :root{
+        --font-size: 1.5rem;
+        --font-size-h1: 2rem;
+    }
+    #calc{
+        margin: 1rem;
+    }
+    [img1] img{
+        width: 5rem;
+    }
+    [img2] img{
+        width: 10rem;
+    }
+    [img3] img{
+        width: 5rem;
+    }
+    [img4] img{
+        width: 5rem;
+    }
+    [img5] img{
+        width: 12rem;
+    }
+    #calc_imc{
+        width: 70%;
+        
+    }
+    .input{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 528px) and (min-width: 404px) {
+    :root{
+        --font-size: 1.5rem;
+        --font-size-h1: 2rem;
+    }
+    #calc{
+        margin: 1rem;
+    }
+    #img{
+        width: 100%;
+    }
+    [img1] img{
+        width: 5rem;
+    }
+    [img2] img{
+        width: 10rem;
+    }
+    [img3] img{
+        width: 5rem;
+    }
+    [img4] img{
+        width: 5rem;
+    }
+    [img5] img{
+        width: 12rem;
+    }
+    #calc_imc{
+        width: 90%;
+        
+    }
+    .input{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 403px) and (min-width: 346px){
+    :root{
+        --font-size: 1.5rem;
+        --font-size-h1: 2rem;
+    }
+    #calc{
+        margin: 1rem;
+    }
+    #img{
+        width: 100%;
+    }
+    [img1] img{
+        width: 4rem;
+    }
+    [img2] img{
+        width: 8rem;
+    }
+    [img3] img{
+        width: 4rem;
+    }
+    [img4] img{
+        width: 4rem;
+    }
+    [img5] img{
+        width: 10rem;
+    }
+    #calc_imc{
+        width: 90%;
+        
+    }
+    .img{
+        width: 2.5rem;
+    }
+    .input{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 346px){
+    :root{
+        --font-size: 1.3rem;
+        --font-size-h1: 1.7rem;
+    }
+    #calc{
+        margin: 1rem;
+    }
+    #img{
+        width: 100%;
+    }
+    [img1] img{
+        width: 3rem;
+    }
+    [img2] img{
+        width: 6rem;
+    }
+    [img3] img{
+        width: 3rem;
+    }
+    [img4] img{
+        width: 3rem;
+    }
+    [img5] img{
+        width: 8rem;
+    }
+    #calc_imc{
+        width: 90%;
+        
+    }
+    .img{
+        width: 2rem;
+    }
+    .input{
+        width: 100%;
+    }
+    .div1_result h3{
+        font-size: 1.5rem;
+    }
+    .div2_result p{
+        font-size: 1rem;
+    }
+    .div_span span{
+        font-size: 1rem;
+    }
+    .result_img{
+        width: 3rem;
+        height: 3rem;
+        display: block;
+    }
+}
+
+/* and (min-width: 922px) */

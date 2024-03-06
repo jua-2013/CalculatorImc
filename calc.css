@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-green:#15d404;
+    --padding-elements:1rem;
+    --margin-elements: 2rem;
+    --color-gray: #313131;
+    --color-white: #fff;
+    --color-white2: #eeeeee;
+    --font-size: 2rem;
+    --font-size-h1:3rem;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black ;
+    color: white;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    letter-spacing: .5rem;
+    overflow-x: hidden;
+}
+#calc{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+#img{
+    width: 80%;
+    border-top: .6rem solid var(--color-white2);
+    border-bottom: .6rem solid var(--color-white2);
+    border-left: .6rem solid var(--color-green);
+    border-right:.6rem solid var(--color-green) ;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(2,auto);
+    
+}
+.img_div{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+[img1]{
+    align-items: start;
+    justify-content: start;
+    grid-area: 1 / 1 / 1 / 3;
+}
+[img2]{
+    align-items: flex-end;
+    grid-area: 1 / 3 / 3 /7;
+
+}
+[img3]{
+    align-items: end;
+    justify-content: center;
+    grid-area: 1 / 7 / 3 / 7;
+
+}
+[img4]{
+    align-items: end;
+    justify-content: start;
+    grid-area: 2 / 1 / 2 / 3;
+}
+[img5]{
+    align-items: end;
+    grid-area: 1 / 8 / 3 / 8 ;
+}
+[img2] img{
+    width: 30rem;
+}
+[img5] img{
+    width: 30rem;
+}
+
+.imgs{
+    width: 10rem;
+}
+
+.im{
+    width: 40rem;
+    display: block;
+}
+
+#calc_imc{
+    width: 60%;
+    height: auto;
+    background-color: rgb(37, 37, 37);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 10rem;
+}
+#calc_imc h1{
+    margin-bottom: var(--margin-elements);
+    font-size: var(--font-size-h1);
+}
+#calc_imc h1::after{
+    content: '';
+    width: 10rem;
+    height: .5rem;
+    display: block;
+    border-radius: 1rem;
+    background-color: #15d404;
+}
+.peso1{
+    margin-bottom: var(--margin-elements);
+}
+.h2{
+    font-size: var(--font-size);
+}
+.input{
+    background-color: var(--color-gray);
+    border: none;
+    height: 3rem;
+    color: var(--color-white2);
+    width: 100%;
+    flex-grow: 1;
+}
+.input:focus{
+    outline: none;
+}
+.div p{
+    font-size: var(--font-size);
+    text-transform: uppercase;
+    color: var(--color-white2);
+}
+.altura{
+    margin-bottom: var(--margin-elements);
+}
+.div{
+    width: auto;
+    height: auto;
+    background-color:var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: var(--padding-elements);
+    gap: var(--padding-elements);
+}
+.img{
+    width: 3rem;
+}
+/* btn */
+.btn{
+    width: 100%;
+    margin-bottom: var(--margin-elements);
+    display: flex;
+    gap: 10%;
+}
+
+.btn_div{
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: var(--padding-elements);
+    width: 50%;
+    border-radius: 1rem;
+}
+.btn_div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+/* result */
+.result{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    margin-bottom: var(--margin-elements);
+    border-top: .3rem solid var(--color-green);
+    border-bottom: .3rem solid var(--color-green);
+    display: none;
+}
+
+.div1_result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.div1_result h3{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.div2_result{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 1rem;
+
+ 
+    
+}
+.div2_result p{
+    font-size: 1.5rem;
+    display: grid;
+}
+.div_span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.div_span span{
+    font-size: 1.5rem;
+}
+.div_img{
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.result_img{
+    width: 4rem;
+    height: 4rem;
+    display: block;
+}

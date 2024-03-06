@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Calc_IMC</title>
+</head>
+<body>
+    <section id="calc">
+        <div id="img">
+            <div class="img_div img1" img1>
+                <img src="./img/equipaments.svg" alt="" class="imgs">
+            </div>
+            <div class="img_div img2" img2>
+                <img src="./img/training.svg" alt="imagem-de-uma-menina-correndo" class="imgs">
+            </div>
+            <div class="img_div img3" img3>
+                <img src="./img/bar.svg" alt="" class="imgs" >
+            </div>
+            <div class="img_div img4" img4>
+                <img src="./img/peso-green.svg" alt="" class="imgs">
+            </div>
+            <div class="img_div img5" img5>
+                <img src="./img/barras.svg" alt="" class="imgs">
+            </div>
+            
+            
+        </div>
+        <div id="calc_imc">
+            <h1>Calculadora - IMC</h1>
+            <div class="peso1">
+                <h2 class="h2">Peso em kg</h2>
+                <div class="div">
+                    <img class="img" src="./img/peso.svg" alt="">
+                    <input type="text" id="peso" class="input" required>
+                    <p>kg</p>
+
+                </div>
+            </div>
+            <div class="altura">
+                <h2 class="h2">Altura em Metros</h2>
+                <div class="div">
+                    <img class="img" src="./img/ruler-svgrepo-com.svg" alt="">
+                    <input type="text" id="altura" class="input" required>
+                    <p>m</p>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="btn_div" id="btn">Calcular</button>
+                <button class="btn_div" id="btn_limpar">Limpar</button>
+            </div>
+            <div class="result" id="result">
+                <div class="div1_result">
+                    <h3 id="result_h3"></h3>
+                <div class="div2_result">
+                        <div class="div_img">
+                            <img class="result_img" id="result_img" src="" alt="">
+                        </div>
+                        <div class="div_span">
+                            <span id="result_span" class="span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+
+    <script src="./calc.js"></script>
+</body>
+</html>
